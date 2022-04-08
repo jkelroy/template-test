@@ -1,0 +1,1 @@
+pct=$(echo "scale=2 ; 100 * $pass_count / $(($i - 1))" | bc -l)
